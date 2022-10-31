@@ -4,7 +4,7 @@ import "fmt"
 
 const PI float64 = 3.14
 
-func main() {
+func test() {
 	fmt.Println("Hello, World!")
 
 	var Student1 string = "John"
@@ -20,9 +20,9 @@ func main() {
 
 	fmt.Println(PI)
 
-	var arr1 = [3]int{3,5,7}
-	arr2 := [5]int{2,4,6,8,0}
-	arr3 := [5]int{1:10,2:20}
+	var arr1 = [3]int{3, 5, 7}
+	arr2 := [5]int{2, 4, 6, 8, 0}
+	arr3 := [5]int{1: 10, 2: 20}
 	fmt.Println(arr1)
 	fmt.Println(arr2)
 	fmt.Println(arr3)
@@ -31,6 +31,5 @@ func main() {
 
 	var cars = [4]string{"Volvo", "BMW", "Audi", "Ford"}
 	fmt.Println(cars)
-
 
 }
