@@ -17,7 +17,7 @@ func check(e error) {
 
 func read() {
 
-	file := "file.ext"
+	file := "assets/all.json"
 
 	dat, err := os.ReadFile(file)
 	check(err)
